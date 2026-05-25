@@ -7,23 +7,36 @@ package hsf302.lab02.pojo;
  */
 public class Student {
 
-    // TODO 2.1: Khai báo field:  private String name
-    // TODO 2.2: Khai báo field:  private int age
+    // TODO 2.1
+    private String name;
+    // TODO 2.2
+    private int age;
 
-    // TODO 2.3: Tạo constructor nhận 2 tham số: (String name, int age)
-    //           và gán vào các field tương ứng
+    // TODO 2.3
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
 
-    // TODO 2.4: Tạo method:  public String getName()
-    //           Trả về giá trị field name
+    // TODO 2.4
+    public String getName() {
+        return name;
+    }
 
-    // TODO 2.5: Tạo method:  public int getAge()
-    //           Trả về giá trị field age
+    // TODO 2.5
+    public int getAge() {
+        return age;
+    }
 
-    // TODO 2.6: Tạo method:  public void setName(String name)
-    //           Gán tham số vào field name
+    // TODO 2.6
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    // TODO 2.7: Tạo method:  public void setAge(int age)
-    //           Gán tham số vào field age
+    // TODO 2.7
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     /**
      * KHÔNG sửa method toString() này.
